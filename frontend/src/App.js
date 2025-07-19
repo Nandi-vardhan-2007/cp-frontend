@@ -4,7 +4,7 @@ import axios from 'axios';
 function App() {
   const [leetcode, setLeetcode] = useState({});
   const [codechef, setCodechef] = useState({});
-  const backendURL = 'https://your-backend-url.onrender.com';
+  const backendURL = 'https://cp-backend-1-y2x8.onrender.com';
 
   useEffect(() => {
     axios.get(`${backendURL}/leetcode/Nandu_2007_`)
